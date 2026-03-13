@@ -35,6 +35,9 @@ The experiment compared the execution time of sequential and parallel implementa
 
 Parallel processing typically shows performance improvements when working with significantly larger datasets or computationally intensive tasks. In this case, the cost of process creation and communication outweighed the benefits of parallel execution.
 
+<img width="689" height="490" alt="download" src="https://github.com/user-attachments/assets/b187dd1f-5017-4875-8312-a7b45e64caac" />
+
+
 ## Challenges Encountered
 
 During the implementation, challenges were encountered when using multiprocessing in a Jupyter Notebook environment. Lambda functions caused pickling errors because multiprocessing requires serializable functions. This issue was resolved by defining named functions instead of lambda expressions.
