@@ -31,7 +31,9 @@ The parallel implementation uses Python's multiprocessing module to execute mult
 
 ## Performance Analysis
 
-Two implementations were tested: sequential and parallel execution. The sequential version processes each operation one after another, while the parallel version executes them concurrently using multiple processes. Based on the recorded execution times, the parallel version demonstrates faster performance compared to the sequential version, showing the advantage of shared-memory parallelism for data processing tasks.
+The experiment compared the execution time of sequential and parallel implementations of the dataset operations. Based on the results, the sequential version executed faster than the parallel version. This occurred because the dataset operations were relatively lightweight, and the overhead of creating and managing multiple processes in Python's multiprocessing module added additional execution time.
+
+Parallel processing typically shows performance improvements when working with significantly larger datasets or computationally intensive tasks. In this case, the cost of process creation and communication outweighed the benefits of parallel execution.
 
 ## Challenges Encountered
 
