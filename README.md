@@ -1,3 +1,26 @@
+# Parallel Data Processing Project
+
+## Project Overview
+This project analyzes a COVID-19 dataset using both sequential and parallel processing techniques in Python. The goal is to compare execution time and evaluate the performance improvement achieved through parallel computing.
+
+## Tools and Technologies Used
+- Python
+- Pandas
+- Multiprocessing
+- Google Colab / Jupyter Notebook
+- Matplotlib
+
+## Instructions for Running the Project
+1. Open the notebook in Google Colab or Jupyter Notebook.
+2. Mount Google Drive if using Google Colab.
+3. Load the dataset from the provided CSV file.
+4. Run all cells sequentially to perform data analysis and compare execution times.
+
+## Team Members and Roles
+Jem Arden D. Unido – Developer / Data Processing Implementation
+
+
+# Technical Report
 ## Problem Description
 
 This project aims to develop a parallel data processing application using Python to analyze a moderately large dataset. The system performs common data analytics tasks such as filtering records, aggregation, and sorting. The goal is to compare sequential execution with parallel execution to determine whether parallel processing improves performance when working with large datasets.
