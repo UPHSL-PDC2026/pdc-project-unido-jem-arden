@@ -4,11 +4,11 @@
 This project analyzes a COVID-19 dataset using both sequential and parallel processing techniques in Python. The goal is to compare execution time and evaluate the performance improvement achieved through parallel computing.
 
 ## Group Members:
-Ilagan, Lloyd
-Lipata, Wilmar
-Mendoza, Josh Leonard
-Prugalidad, Azra Raphael
-Unido, Jem Arden
+- Ilagan, Lloyd
+- Lipata, Wilmar
+- Mendoza, Josh Leonard
+- Prugalidad, Azra Raphael
+- Unido, Jem Arden
 
 ## Tools and Technologies Used
 - Python
